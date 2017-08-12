@@ -102,7 +102,7 @@ cordova run android
 Editing your App
 </summary> 
  
-+ Open the `www` folder using your favorite Text Editor eg [Visual Studio Code](aka.ms/vscode) or [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) 
++ Open the `www` folder using your favorite Text Editor eg [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) 
 + In this folder you should find 
  
     |www  
