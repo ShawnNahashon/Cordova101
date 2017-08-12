@@ -95,4 +95,29 @@ cordova build android
 ```bash 
 cordova run android 
 ```
+</details> 
+ 
+<details> 
+<summary> 
+Editing your App
+</summary> 
+ 
++ Open the `www` folder using your favorite Text Editor eg [Visual Studio Code](aka.ms/vscode) or [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) 
++ In this folder you should find 
+ 
+    |www  
+
+        -css  // Style files to define how your app looks ...css files go here 
+
+        -img  // Static assets ..Images such as icons,logos go here
+
+        -js   // Your app logic running on Javascript ,all .js files go here
+
+        -index.html  // What is seen when your app runs 
+         
+ 
++ ![alt Javascript](js.png) 
++ ![alt CSS](css.png)
++ ![alt Images](imgs.png) 
++ ![alt UI](index.png) 
 </details>
