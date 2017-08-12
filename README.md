@@ -33,6 +33,20 @@ java -version
 ```bash 
 node -v 
 ``` 
-Running the above commands from the terminal or commandline should give version number for each tool
+Running the above commands from the terminal or commandline should give version number for each tool. 
++ Refer to [this tutorial](https://www3.ntu.edu.sg/home/ehchua/programming/android/Android_HowTo.html) to help you setup Android and Java 
++ Ensure your Android SDK installation resembles the given images (Run as Admin)  
+![alt Search for SDK](sdkSr.png)  
+![alt Extras](sdkExtras.png)  
+
+![alt Tools](sdkPack.png)  
+
+![alt API19](sdkAPI19.png) 
+
+
++ Ensure you have all tools installed 
+![alt Tools Setup](sdkTools.png) 
++ Ensure at least API 19 is installed 
++ Ensure all *Extras*  are installed as well
  
 </details>
