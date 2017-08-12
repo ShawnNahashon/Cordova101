@@ -90,5 +90,9 @@ cordova build android
 ```
 ![alt Build](setup6.png) 
 7. If everything went well you should get a success message ,you can go to the apk path (normally _/platforms/android/build/outputs/apks/_) ,take the apk file and install in your phone
-![alt Success](setup7.png)
+![alt Success](setup7.png) 
+8. To run the app in an Android with *USB Debugging enabled* run the following command after connecting your phone to yor PC via USB 
+```bash 
+cordova run android 
+```
 </details>
