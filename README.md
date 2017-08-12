@@ -47,6 +47,48 @@ Running the above commands from the terminal or commandline should give version 
 + Ensure you have all tools installed 
 ![alt Tools Setup](sdkTools.png) 
 + Ensure at least API 19 is installed 
-+ Ensure all *Extras*  are installed as well
++ Ensure all *Extras*  are installed as well 
  
++ Running `cordova` should give commandline options 
+```bash 
+cordova 
+``` 
+
+ 
+</details> 
+ 
+<details>  
+<summary>
+Creating a Cordova Application  
+</summary> 
+ 
+ 1. Use the following command to scaffold a new application named *MyApp* of package id *com.my.app* in your directory of choice (Internet is required)
+ ```bash 
+ cordova create MyApp com.my.app 
+ ``` 
+![alt Create App](Setup.png) 
+2. Your `MyApp` should have a bunch files 
+![alt App Dir](setup2.png) 
+3. The good stuff happens in the `www` folder 
+![alt WWW folder](setup3.png) 
+4. To add support for all platoforms,run the following command (Internet is required)
+```bash
+cordova platform add android windows ios
+```
+This will add support for *Android* ,*Windows* and *iOS*
+You can add individual platforms by running 
+```bash 
+cordova platform android 
+``` 
+The above adds only support for Android 
+![alt Platforms](setup4.png) 
+5. You'll see platforms in the `platforms` folder 
+![alt Plats](setup5.png) 
+6. To build your app for installation (basically to create an *.apk* file for installation) run the following command 
+```bash 
+cordova build android 
+```
+![alt Build](setup6.png) 
+7. If everything went well you should get a success message ,you can go to the apk path (normally _/platforms/android/build/outputs/apks/_) ,take the apk file and install in your phone
+![alt Success](setup7.png)
 </details>
