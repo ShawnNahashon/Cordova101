@@ -120,4 +120,7 @@ Editing your App
 + ![alt CSS](css.png)
 + ![alt Images](imgs.png) 
 + ![alt UI](index.png) 
-</details>
+</details>  
+
+> Follow this tutotrial to set up your AVD  
+Look under [Managing AVDs](https://www.codeproject.com/Articles/800701/Setting-Up-Your-Android-Development-Environment)
